@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cover">
+        <p class="eyebrow">UNDANGAN PERNIKAHAN</p>
+        <h1>Wowok Tel Aviv &amp; Bahlil Hydro Archons</h1>
+        <p>Kepada Yth.</p>
+        <p id="nama-tamu" class="guest-name">Bapak, Ibu, dan Teman-teman</p>
+        <a href="#undangan" id="buka-undangan">BUKA UNDANGAN</a>
+    </header>
+
+    <nav aria-label="Navigasi undangan">
+        <ul>
+            <li><a href="#acara">Detail Acara</a></li>
+            <li><a href="#lokasi">Lokasi</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+            <li><a href="#buku-tamu">Buku Tamu</a></li>
+        </ul>
+    </nav>
+
+    <main id="undangan">
+        <section class="content-card" aria-labelledby="salam">
+            <h2 id="salam">Assalamu'alaikum Warahmatullahi Wabarakatuh</h2>
+            <p class="section-copy">
+                Dengan penuh rasa syukur, kami mengundang Anda untuk hadir dan
+                berbagi kebahagiaan di acara pernikahan kami.
+            </p>
+        </section>
+
+        <section id="acara" class="content-card" aria-labelledby="judul-acara">
+            <h2 id="judul-acara">Detail Acara</h2>
+            <dl class="event-details">
+                <div>
+                    <dt>Hari dan tanggal</dt>
+                    <dd>Sabtu, 26 Desember 2026</dd>
+                </div>
+                <div>
+                    <dt>Waktu</dt>
+                    <dd>10.00–17.00 WIB</dd>
+                </div>
+                <div>
+                    <dt>Tempat</dt>
+                    <dd>Hall G Stan</dd>
+                </div>
+                <div>
+                    <dt>Alamat</dt>
+                    <dd>Bintaro, Kota Tangerang Selatan</dd>
+                </div>
+            </dl>
+
+            <h3>Hitung Mundur</h3>
+            <p id="countdown" class="countdown">Menyiapkan hitung mundur...</p>
+
+            <a
+                href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Undangan%20Pernikahan&amp;dates=20261226T100000/20261226T170000&amp;ctz=Asia%2FJakarta&amp;location=Hall%20G%20Stan%2C%20Bintaro%2C%20Kota%20Tangerang%20Selatan"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Simpan ke Kalender
+            </a>
+        </section>
+
+        <section id="lokasi" class="content-card" aria-labelledby="judul-lokasi">
+            <p class="section-kicker">LOCATION &amp; GIFT</p>
+            <h2 id="judul-lokasi">Lokasi &amp; Tanda Kasih</h2>
+            <p class="section-copy">Temukan lokasi acara dan informasi hadiah di bawah ini.</p>
+
+            <div class="map-frame">
+                <iframe
+                    title="Peta lokasi acara di Bintaro"
+                    src="https://maps.google.com/maps?q=Hall%20G%20Stan%2C%20Bintaro%2C%20Kota%20Tangerang%20Selatan&amp;output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    allowfullscreen
+                ></iframe>
+            </div>
+            <a
+                class="map-action"
+                href="https://maps.app.goo.gl/191rXyfZGFiYMfQK7"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Arahkan ke Google Maps
+            </a>
+
+            <div class="gift-grid">
+                <article class="gift-card">
+                    <p class="section-kicker">DOMPET DIGITAL</p>
+                    <h3>GoPay</h3>
+                    <dl class="event-details">
+                        <div>
+                            <dt>Nomor GoPay</dt>
+                            <dd id="gopay-number">082133416201</dd>
+                        </div>
+                        <div>
+                            <dt>Atas nama</dt>
+                            <dd>Athar Waldan</dd>
+                        </div>
+                    </dl>
+                    <button type="button" id="salin-gopay">Salin Nomor GoPay</button>
+                </article>
+                <article class="gift-card">
+                    <p class="section-kicker">ALAMAT KADO</p>
+                    <h3>Kirim Hadiah</h3>
+                    <p id="alamat-kado" class="gift-address">Komplek Taman Mangu Indah, Jurang Mangu Barat, Pondok Aren, Kota Tangerang Selatan, Banten, Indonesia</p>
+                    <button type="button" id="salin-alamat">Salin Alamat</button>
+                </article>
+            </div>
+        </section>
+
+        <section id="galeri" class="content-card" aria-labelledby="judul-galeri">
+            <h2 id="judul-galeri">Galeri Foto</h2>
+            <figure>
+                <img src="music_and_images/bahlil.jpg" alt="Bahlil mengenakan kostum Furina">
+                <figcaption>Bahlil Hydro Archons</figcaption>
+            </figure>
+            <figure>
+                <img src="music_and_images/wowok_telaviv.jpg" alt="Potret Wowok">
+                <figcaption>Wowok Tel Aviv</figcaption>
+            </figure>
+            <figure>
+                <img src="music_and_images/bahlil_wowok_pelukan.jpg" alt="Bahlil dan Wowok berfoto bersama">
+                <figcaption>Bahlil dan Wowok</figcaption>
+            </figure>
+            <figure>
+                <img src="music_and_images/bahlil_wowok_gandengan.jpg" alt="Bahlil dan Wowok berjalan bersama">
+                <figcaption>Foto bersama</figcaption>
+            </figure>
+        </section>
+
+        <section id="rsvp" class="content-card" aria-labelledby="judul-rsvp">
+            <h2 id="judul-rsvp">Konfirmasi Kehadiran</h2>
+            <p class="section-copy">Mohon isi formulir berikut untuk mengonfirmasi kehadiran.</p>
+            <form id="rsvp-form">
+                <p>
+                    <label for="nama-rsvp">Nama tamu</label>
+                    <input type="text" id="nama-rsvp" name="nama" required>
+                </p>
+                <p>
+                    <label for="status-kehadiran">Status kehadiran</label>
+                    <select id="status-kehadiran" name="kehadiran" required>
+                        <option value="">Pilih status</option>
+                        <option value="hadir">Hadir</option>
+                        <option value="tidak-hadir">Tidak hadir</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="ucapan">Ucapan atau doa</label>
+                    <textarea id="ucapan" name="ucapan" rows="4"></textarea>
+                </p>
+                <button type="submit">Kirim RSVP</button>
+                <p id="rsvp-status" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section id="buku-tamu" class="content-card" aria-labelledby="judul-buku-tamu">
+            <h2 id="judul-buku-tamu">Buku Tamu</h2>
+            <p class="section-copy">Ucapan dan doa dari para tamu akan tampil di sini.</p>
+            <ul id="daftar-ucapan">
+                <li>Memuat ucapan...</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <audio id="background-music" loop preload="none">
+        <source src="music_and_images/musik.mp3" type="audio/mpeg">
+        Browser kamu tidak mendukung pemutar audio.
+    </audio>
+    <button
+        type="button"
+        id="music-toggle"
+        class="music-toggle"
+        aria-label="Putar musik latar"
+        aria-pressed="false"
+    >
+        Putar Musik
+    </button>
+    <p id="toast" class="toast" role="status" aria-live="polite" hidden></p>
+
+    <footer>
+        <p>Terima kasih atas doa dan kehadiran Anda.</p>
+    </footer>
+    <script src="style.js"></script>
+</body>
+</html>
